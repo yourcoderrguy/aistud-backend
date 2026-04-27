@@ -1,0 +1,9 @@
+# Ignore the Virtual Environment
+venv/
+
+# Ignore the Heavy AI Model
+aistud_trained_model/
+*.zip
+
+# Ignore Python Cache
+__pycache__/
