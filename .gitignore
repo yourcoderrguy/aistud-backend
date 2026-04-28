@@ -2,7 +2,7 @@
 venv/
 
 # Ignore the Heavy AI Model
-aistud_trained_model/
+aistud_model/
 *.zip
 
 # Ignore Python Cache

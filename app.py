@@ -12,7 +12,7 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 # --- BOOT UP THE AI BRAIN ---
 print("🧠 Loading AiStud Brain... This might take 10-20 seconds...")
 try:
-    MODEL_PATH = "./aistud_trained_model"
+    MODEL_PATH = "./aistud_model"
     tokenizer = T5Tokenizer.from_pretrained(MODEL_PATH, legacy=False)
     model = T5ForConditionalGeneration.from_pretrained(MODEL_PATH)
     print("✅ AiStud T5 Brain is Online and Ready!")
